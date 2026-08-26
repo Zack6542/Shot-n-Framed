@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shot and Framed — photography by Zackery Lau. Event and portrait photography.">
+  <title>Shot and Framed — Zackery Lau</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Shot and Framed home">
+      <span>SHOT</span><i> / </i><span>FRAMED</span>
+    </a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img src="images/stage-event.jpg" alt="Students on stage under colorful event lighting">
+      <div class="hero-overlay"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">ZACKERY LAU · PHOTOGRAPHY</p>
+        <h1>Shot<br><em>and</em><br>Framed.</h1>
+        <p class="hero-sub">Events, portraits, and the moments in between.</p>
+        <a class="scroll-link" href="#work">Explore the work <span>↓</span></a>
+      </div>
+      <div class="hero-index">01 / 09</div>
+    </section>
+
+    <section class="intro">
+      <p class="eyebrow">SELECTED WORK</p>
+      <div class="intro-grid">
+        <h2>People.<br><em>Moments.</em><br>Stories.</h2>
+        <p>
+          I photograph people as they actually are — laughing, celebrating,
+          working, performing, and simply being together. My focus is on
+          natural moments that still feel intentional when they're framed.
+        </p>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="work-top">
+        <div>
+          <p class="eyebrow">THE GALLERY</p>
+          <h2>Selected photographs</h2>
+        </div>
+        <div class="filters" role="group" aria-label="Filter photographs">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="portrait">Portraits</button>
+          <button class="filter" data-filter="event">Events</button>
+          <button class="filter" data-filter="candid">Candid</button>
+        </div>
+      </div>
+
+      <div class="gallery" id="gallery">
+        <figure class="photo photo-tall" data-category="portrait" data-title="A Different Kind of Portrait" data-src="images/turtle-portrait.jpg">
+          <img src="images/turtle-portrait.jpg" alt="Portrait outdoors with a turtle" loading="lazy">
+          <figcaption><span>01</span><b>A Different Kind of Portrait</b><small>Portrait</small></figcaption>
+        </figure>
+
+        <figure class="photo photo-wide" data-category="portrait" data-title="Cabin Light" data-src="images/portrait-cabin.jpg">
+          <img src="images/portrait-cabin.jpg" alt="Portrait inside a wooden cabin" loading="lazy">
+          <figcaption><span>02</span><b>Cabin Light</b><small>Portrait</small></figcaption>
+        </figure>
+
+        <figure class="photo photo-wide" data-category="candid" data-title="Field Notes" data-src="images/fieldwork.jpg">
+          <img src="images/fieldwork.jpg" alt="People working beside a creek" loading="lazy">
+          <figcaption><span>03</span><b>Field Notes</b><small>Candid</small></figcaption>
+        </figure>
+
+        <figure class="photo photo-tall" data-category="portrait" data-title="Friends at Dusk" data-src="images/friends-at-dusk.jpg">
+          <img src="images/friends-at-dusk.jpg" alt="Two friends posing outdoors at dusk" loading="lazy">
+          <figcaption><span>04</span><b>Friends at Dusk</b><small>Portrait</small></figcaption>
+        </figure>
+
+        <figure class="photo photo-wide" data-category="event" data-title="Under the Lights" data-src="images/stage-event.jpg">
+          <img src="images/stage-event.jpg" alt="Students on stage under purple and orange lights" loading="lazy">
+          <figcaption><span>05</span><b>Under the Lights</b><small>Event</small></figcaption>
+        </figure>
+
+        <figure class="photo photo-wide" data-category="candid" data-title="Into the Woods" data-src="images/forest-walk.jpg">
+          <img src="images/forest-walk.jpg" alt="Two people walking through a forest" loading="lazy">
+          <figcaption><span>06</span><b>Into the Woods</b><small>Candid</small></figcaption>
+        </figure>
+
+        <figure class="photo photo-wide" data-category="portrait" data-title="Four Friends" data-src="images/group-portrait.jpg">
+          <img src="images/group-portrait.jpg" alt="Four friends posing under a tree" loading="lazy">
+          <figcaption><span>07</span><b>Four Friends</b><small>Portrait</small></figcaption>
+        </figure>
+
+        <figure class="photo photo-wide" data-category="portrait" data-title="Golden Hour" data-src="images/family-portrait.jpg">
+          <img src="images/family-portrait.jpg" alt="Three people posing together outdoors" loading="lazy">
+          <figcaption><span>08</span><b>Golden Hour</b><small>Portrait</small></figcaption>
+        </figure>
+
+        <figure class="photo photo-wide" data-category="event" data-title="The Formal" data-src="images/formal-portrait.jpg">
+          <img src="images/formal-portrait.jpg" alt="Four friends dressed formally at an outdoor event" loading="lazy">
+          <figcaption><span>09</span><b>The Formal</b><small>Event</small></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="statement" id="about">
+      <div class="statement-number">02</div>
+      <div>
+        <p class="eyebrow">ABOUT THE PHOTOGRAPHER</p>
+        <h2>Photography should feel<br><em>like the memory.</em></h2>
+        <p class="statement-body">
+          I'm Zackery Lau, a photographer focused on events and portraits.
+          I like images that feel lived-in rather than overly staged — the
+          expression between poses, the energy of a room, the people who make
+          an event worth remembering.
+        </p>
+      </div>
+    </section>
+
+    <section class="services">
+      <p class="eyebrow">WHAT I SHOOT</p>
+      <div class="service-list">
+        <div><span>01</span><h3>Events</h3><p>School events, performances, competitions, celebrations, and everything happening around them.</p></div>
+        <div><span>02</span><h3>Portraits</h3><p>Individual and group portraits that keep personality at the center of the frame.</p></div>
+        <div><span>03</span><h3>Stories</h3><p>Candid coverage for projects, organizations, and moments where the people matter most.</p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Have something<br><em>worth framing?</em></h2>
+      <p>Add your email or Instagram in <code>script.js</code> to activate the contact button.</p>
+      <a class="contact-button" id="contactButton" href="#">Let's talk <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><span>SHOT</span><i> / </i><span>FRAMED</span></div>
+    <p>© <span id="year"></span> Zackery Lau Photography</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close photo">×</button>
+    <button class="lightbox-prev" aria-label="Previous photo">←</button>
+    <img id="lightboxImage" src="" alt="">
+    <button class="lightbox-next" aria-label="Next photo">→</button>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
