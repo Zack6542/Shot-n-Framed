@@ -1,8 +1,8 @@
 // ====== QUICK SETTINGS ======
 // Add your email or Instagram below. Leave either blank if you don't want to use it.
 const SETTINGS = {
-  email: "",                 // Example: "you@example.com"
-  instagram: ""              // Example: "https://instagram.com/yourusername"
+  email: "zackbolau@gmail.com",                 // Example: "you@example.com"
+  instagram: "https://www.instagram.com/framed_byzack/"              // Example: "https://instagram.com/yourusername"
 };
 // =============================
 
